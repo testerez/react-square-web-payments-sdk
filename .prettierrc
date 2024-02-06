@@ -1,9 +1,0 @@
-{
-  "jsdocPreferCodeFences": true,
-  "jsdocPrintWidth": 80,
-  "plugins": ["./node_modules/prettier-plugin-jsdoc"],
-  "printWidth": 120,
-  "semi": true,
-  "singleQuote": true,
-  "tsdoc": true
-}

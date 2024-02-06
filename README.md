@@ -46,10 +46,10 @@ yarn add react-square-web-payments-sdk
 ```tsx
 // Dependencies
 import * as React from 'react';
-import { CreditCard, PaymentForm } from 'react-square-web-payments-sdk';
+import { CreditCard, PaymentsForm } from 'react-square-web-payments-sdk';
 
 const MyPaymentForm = () => (
-  <PaymentForm
+  <PaymentsForm
     /**
      * Identifies the calling form with a verified application ID generated from
      * the Square Application Dashboard.
@@ -88,7 +88,7 @@ const MyPaymentForm = () => (
     locationId="LID"
   >
     <CreditCard />
-  </PaymentForm>
+  </PaymentsForm>
 );
 
 export default MyPaymentForm;
